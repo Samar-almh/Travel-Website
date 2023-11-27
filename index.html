@@ -1,0 +1,573 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta  charset="utf-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/all.css">
+    <link rel="stylesheet" href="css/fontawesome.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin="">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.0/css/all.css" integrity="sha384-lZN37f5QGtY3VHgisS14W3ExzMWZxybE1SJSEsQp9S+oqd12jhcu+A56Ebc1zFSJ" crossorigin="anonymous">
+    <title> Travel-Website </title> 
+</head>
+<body>
+
+  <!--////////////////////////////section1///////////////////////////////////////-->
+    <!--///////////////////////   Header ////////////////////////////////////////-->
+
+    <section class="section1">
+    <header>
+      <nav class="navbar navbar-expand-md navbar-light bg-light  fixed-top " style="  height: 80px;">
+        <div class="container-fluid ">
+          <input type="image" src="img/travel logo.png" alt="pic" height="65px" width="140px">
+          <a class="navbar-brand text-info m-4" href="#" style="border-right:1px solid #ccc; padding-right: 10px; font-weight: bold;">YEMEN</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link active " aria-current="page" href="#">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link " href="#">About</a>
+              </li>
+              <li class="nav-item dropdown">
+                <button class="nav-link dropdown-toggle border-2 border-light rounded-3" href="#" id="nav-Dropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false" style="color: #7a17bf;">
+                  places
+                </button>
+                <ul class="dropdown-menu mt-3  fade " aria-labelledby="nav-Dropdown">
+                  <li><a class="dropdown-item text-secondary" target="_blank" href="">Sanaa</a></li>
+                  <li><a class="dropdown-item text-secondary" target="_blank" href=""> Hajjah</a></li>
+                  <li>
+                    <hr class="dropdown-divider bg-light">
+                  </li>
+                  <li><a class="dropdown-item text-secondary" target="_blank" href="">Alhodidah</a></li>
+                 
+
+                </ul>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link disabled">Vactions</a>
+              </li>
+            </ul>
+            <form class="d-flex">
+              <input class="form-control m-3 border-3 rounded-3" type="search" placeholder="Search" aria-label="Search">
+    
+            </form>
+            <form class="d-flex">
+              <button class="navbtn btn text-white me-3 border-3 rounded-3 shadow-lg" type="submit">Search</button>
+              <button class="navbtn btn text-white border-3 rounded-3 shadow-lg" type="button" data-bs-toggle="modal" data-bs-target="#myModal">Login</button>
+            </form> 
+          </div> 
+        </div>
+      </nav>
+    </header>
+    
+<!--//////////////////////////////////////////////-->
+
+<div id="carouselExampleAutoplaying" class="carousel slide" data-bs-ride="carousel">
+  <div class="carousel-indicators">
+    <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+    <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="1" aria-label="Slide 2"></button>
+    <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="2" aria-label="Slide 3"></button>
+    <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="3" aria-label="Slide 4"></button>
+  </div>
+  <div class="carousel-inner">
+    <div class="carousel-item active">
+      <img src="img/Al-Saleh-Mosque.jpg" class="d-block w-100" alt="back1" style="height: 550px; background-size: cover;">
+      <div class="carousel-caption d-none d-md-block">
+        <h5>Discover the hidden gems of Yemen</h5>
+        <p>"Where ancient history and breathtaking landscapes come together to create an unforgettable journey."</p>
+        <button class="navbtn btn text-white me-3 border-3 rounded-3 shadow-lg" type="submit" style="background-color:#7a17bf;">Visit Us</button>
+      </div>
+    </div>
+    <div class="carousel-item">
+      <img src="img/a.jpg" class="d-block w-100" alt="back2" style="height: 550px; background-size: cover;">
+      <div class="carousel-caption d-none d-md-block">
+        <h5>"Immerse yourself in the rich tapestry of Yemen.</h5>
+        <p>"Where vibrant markets, historical wonders, and warm hospitality await every traveler."</p>
+        <button class="navbtn btn text-white me-3 border-3 rounded-3 shadow-lg" type="submit" style="background-color:#7a17bf;">Visit Us</button>
+      </div>
+    </div>
+    <div class="carousel-item">
+      <img src="img/alsaleh.jpg" class="d-block w-100" alt="back3" style="height: 550px; background-size: cover;">
+      <div class="carousel-caption d-none d-md-block">
+        <h5>"Embark on a journey to Yemen and experience a land of contrasts.</h5>
+        <p>From the bustling souks of Sana'a to the serene beauty of Socotra's untouched landscapes."</p>
+        <button class="navbtn btn text-white me-3 border-3 rounded-3 shadow-lg" type="submit" style="background-color:#7a17bf;">Visit Us</button>
+      </div>
+    </div>
+    <div class="carousel-item">
+      <img src="img/back4.jpg" class="d-block w-100" alt="back4" style="height: 550px; background-size: cover;">
+      <div class="carousel-caption d-none d-md-block">
+        <h5>Explore Yemen's timeless charm and witness the fusion of tradition and adventure.</h5>
+        <p>From the towering mud-brick skyscrapers of Shibam to the crystal-clear waters of the Red Sea.</p>
+        <button class="navbtn btn text-white me-3 border-3 rounded-3 shadow-lg" type="submit" style="background-color:#7a17bf;">Visit Us</button>
+      </div>
+    </div>
+  </div>
+  <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide="prev">
+    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Previous</span>
+  </button>
+  <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide="next">
+    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Next</span>
+  </button>
+ </div>
+</section>
+<!--////////////////////////////////// section2/////////////////////////////////////////////-->
+
+<section class="section2">
+
+    <div class="card p-3  text-white shadow-lg" style="border-top-left-radius: 0; border-top-right-radius:0 ;background-color: rgb(233, 230, 233)">
+     <div class="card-body">
+       <h2 class="card-title title">Welcome to Yemen</h2>
+         <p class="card-text" style="color: #6b6b6c;">Welcome, wanderer! Embark on a virtual journey with us to the heart of the Arabian Peninsula, where ancient history, vibrant culture, and breathtaking landscapes converge. Yemen, a land of contrasts, awaits your exploration.</p>
+          <a href="#" class="btn btn-lg m-auto" style="color: #ffffff; background-color: #7a17bf;">Lets Go</a>
+  </div>
+</div>
+</section2>
+<hr>
+<!--////////////////////////////////// section 3 /////////////////////////////////////////////-->
+
+<section3>
+  <div class="mx-auto my-3 p-5  text-light text-center text-shadow rounded-3 shadow-lg " style="background-color: #9650c8;">
+    <h1>Explore Yemen's Rich Heritage</h1>
+  </div>
+</section>
+
+<!--////////////////////////////////// section 4 /////////////////////////////////////////////-->
+
+<section4>
+  <div class="accordion" id="accordionExample">
+    <div class="accordion-item">
+      <h2 class="accordion-header">
+        <button class="accordion-button title" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+          Old City of Sana'a
+        </button>
+      </h2>
+      <div id="collapseOne" class="accordion-collapse collapse show" data-bs-parent="#accordionExample">
+        <div class="accordion-body text-secondary">
+          <strong>This is the first place in Yemen</strong> estled in the highlands of Yemen, the Old City of Sana'a is a living testament to the country's rich history. Recognized as a UNESCO World Heritage Site, this maze-like cityscape boasts centuries-old architecture with intricately decorated towers and houses constructed from mud bricks. Lose yourself in the narrow, winding alleys adorned with colorful stained glass windows and ornate doors. The Great Mosque of Sana'a and the Bab al-Yemen gate are iconic landmarks that transport visitors to another era.
+        </div>
+      </div>
+    </div>
+    <div class="accordion-item">
+      <h2 class="accordion-header">
+        <button class="accordion-button collapsed title" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+         Socotra Archipelago
+        </button>
+      </h2>
+      <div id="collapseTwo" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+        <div class="accordion-body text-secondary">
+          <strong>This is the second place in Yemen.</strong> Off the coast of Yemen in the Indian Ocean, the Socotra Archipelago is a paradise for nature enthusiasts. Known for its otherworldly landscapes, Socotra is home to unique plant and animal species found nowhere else on the planet. The Dragon's Blood Trees, with their umbrella-like canopies, and the white sand beaches of Qalansiyah are just a glimpse of the archipelago's natural wonders. Dive into the crystal-clear waters to explore vibrant coral reefs and marine life, making Socotra a must-visit destination for eco-adventurers.
+        </div>
+      </div>
+    </div>
+    <div class="accordion-item">
+      <h2 class="accordion-header">
+        <button class="accordion-button collapsed title" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+          Shibam
+        </button>
+      </h2>
+      <div id="collapseThree" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+        <div class="accordion-body text-secondary">
+          <strong>This is the third place in Yemen.</strong> Dubbed the "Manhattan of the Desert," the ancient city of Shibam in the Hadramaut Valley is renowned for its extraordinary architecture. The city is characterized by its towering mud-brick buildings, some rising up to eight stories high. These impressive structures have earned Shibam a place on the UNESCO World Heritage list. Wander through the narrow streets and marvel at the innovative engineering that has sustained this urban marvel for centuries. Shibam provides a unique window into the past, offering a glimpse of urban planning and architecture from a bygone era.
+        </div>
+      </div>
+    </div>
+  </div>
+</section4>
+<hr>
+
+<!--////////////////////////////////// section5 /////////////////////////////////////////////-->
+
+<section class="section5">
+  <div class="mx-auto my-3 p-2  text-light text-center text-shadow rounded-3 shadow-lg " style="background-color: #9650c8;">
+    <h1>Translate From Arabic To English</h1>
+  </div>
+  <div class="card p-3  text-white shadow-lg" style="border-top-left-radius: 0; border-top-right-radius:0 ;background-color: rgb(223, 179, 231);"><grammarly-extension data-grammarly-shadow-root="true" style="position: absolute; top: -0.666667px; left: -0.666667px; pointer-events: none;" class="dnXmp"></grammarly-extension><grammarly-extension data-grammarly-shadow-root="true" style="position: absolute; top: -0.666667px; left: -0.666667px; pointer-events: none;" class="dnXmp"></grammarly-extension>
+    <div class="card-body">
+      <h4 class="card-title ">ًWrite and Translate <a href="https://translate.google.com.eg/?hl=en" target="_blank" rel="noopener">Press Here</a></h4>
+      <textarea id="sentence" class="form-control mx-auto mt-3" rows="5" placeholder="Translate your writing :" name="text" spellcheck="false"></textarea>
+      <br>
+      <button class="btn btn-light border border-2 btntranslate .btntranslate::before .btntranslate::after shadow-lg " onclick="copyToClipboard('sentence')" id="btnCopy" style="font-size: 18px; color: #9650c8;" >
+        Copy
+      </button>
+    </div>
+  </div>
+<hr>
+  <div class="mx-auto my-3 p-2  text-light text-center text-shadow rounded-3 shadow-lg " style="background-color: #9650c8;">
+    <h1>Translate From Arabic To French</h1>
+  </div>
+  <div class="card p-3  text-white shadow-lg" style="border-top-left-radius: 0; border-top-right-radius:0 ;background-color: rgb(223, 179, 231);"><grammarly-extension data-grammarly-shadow-root="true" style="position: absolute; top: -0.666667px; left: -0.666667px; pointer-events: none;" class="dnXmp"></grammarly-extension><grammarly-extension data-grammarly-shadow-root="true" style="position: absolute; top: -0.666667px; left: -0.666667px; pointer-events: none;" class="dnXmp"></grammarly-extension>
+    <div class="card-body">
+      <h4 class="card-title ">ًWrite and Translate <a href="https://translate.google.com.eg/?hl=en&amp;sl=ar&amp;tl=fr&amp;op=translate" target="_blank" rel="noopener">Press Here</a></h4>
+      <textarea id="sentence" class="form-control mx-auto mt-3" rows="5" placeholder="Translate your writing :" name="text" spellcheck="false"></textarea>
+      <br>
+      <button class="btn btn-light border border-2 btntranslate .btntranslate::before .btntranslate::after shadow-lg" onclick="copyToClipboard('sentence')" id="btncopy" style="font-size: 18px; color: #9650c8;">
+        Copy
+      </button>
+
+    </div>
+  </div>
+<hr>
+<div class="mx-auto my-3 p-2  text-light text-center text-shadow rounded-3 shadow-lg " style="background-color: #9650c8;">
+  <h1>Translate From Arabic To German</h1>
+</div>
+<div class="card p-3  text-white shadow-lg" style="border-top-left-radius: 0; border-top-right-radius:0 ;background-color: rgb(223, 179, 231);">
+  <div class="card-body">
+    <h4 class="card-title ">ًWrite and Translate <a href="https://translate.google.com.eg/?hl=en&amp;sl=ar&amp;tl=de&amp;op=translate" target="_blank" rel="noopener">Press Here</a></h4>
+    <textarea id="sentence" class="form-control mx-auto mt-3" rows="5" placeholder="Translate your writing :" name="text"></textarea>
+    <br>
+    <button class="btn btn-light border border-2 btntranslate .btntranslate::before .btntranslate::after shadow-lg" onclick="copyToClipboard('sentence')" id="btncopy" style="font-size: 18px; color: #9650c8;">
+      Copy
+    </button>
+    
+  </div>
+</div>
+</section>
+
+<!--/////////////////////////////////////////// section 6 /////////////////////////////////////////-->
+<section class="section7">
+<section class="section6">
+<hr class="my-4">
+<div class="fixed-img fixed-image1"></div>
+
+
+  <div class="tours">
+    <div class="mx-auto my-3 p-5  text-light text-center text-shadow rounded-3 shadow-lg " style="background-color: #9650c8;">
+      <h3>5 Most Interesting Attractions Of Yemen For Visitors</h3>
+      </div>
+    <div class="container-fluid">
+      <div class="row justify-content-around pb-5 ">
+
+        <div class="card cardover bg-light col-lg-3 col-md-4 col-sm-6 m-1 mt-5 shadow">
+          <input type="image" src="img/old.sanaa.jpg" class="card-img-top shadow w-100" alt=" pic">
+          <div class="card-body">
+            <h5 class=" car card-title">Old Sana'a</h5>
+            <p class=" car card-text">Capital of Yemen</p>
+            <button class="btn text-light mx-auto d-block" style="background-color: #9650c8;">Read More</button>
+          </div>
+        </div>
+        
+        <div class="card cardover bg-light col-lg-3 col-md-4 col-sm-6 m-1 mt-5 shadow">
+          <input type="image" src="img/Shaharah-Bridge.jpg" class="card-img-top shadow" alt=" pic">
+          <div class="card-body">
+            <h5 class="car card-title">Shaharah Bridge</h5>
+            <p class="car card-text"> This bridge was built in 17th century</p>
+            <button class="btn text-light mx-auto d-block" style="background-color: #9650c8;">Read More</button>
+          </div>
+        </div>
+       
+        <div class="card cardover bg-light col-lg-3 col-md-4 col-sm-6 m-1 mt-5 shadow">
+          <input type="image" src="img/The-Otherworldly-Socotra-Island.jpg" class="card-img-top shadow" alt=" pic">
+          <div class="card-body">
+            <h5 class="car card-title">Socotra Island</h5>
+            <p class="car card-text">The biggest Island in Yemen</p>
+            <button class="btn text-light mx-auto d-block" style="background-color: #9650c8;">Read More</button>
+          </div>
+        </div>
+      
+        <div class="card cardover bg-light col-lg-3 col-md-4 col-sm-6 m-1 mt-5 shadow">
+          <input type="image" src="img/The-Heritage-City-Of-Zabid.jpg" class="card-img-top shadow" alt=" pic">
+          <div class="card-body">
+            <h5 class="car card-title">City Of Zabid</h5>
+            <p class="car card-text">The city is famous for the great mosque </p>
+            <button class="btn text-light mx-auto d-block" style="background-color: #9650c8;">Read More</button>
+          </div>
+        </div>
+
+        <div class="card cardover bg-light col-lg-3 col-md-4 col-sm-6 m-1 mt-5 shadow">
+          <input type="image" src="img/The-Ruins-Of-Marib.jpg" class="card-img-top shadow" alt=" pic">
+          <div class="card-body">
+            <h5 class="car card-title">The Ruins Of Marib</h5>
+            <p class="car card-text">One of the ancient places of Yemen</p>
+            <button class="btn text-light mx-auto d-block" style="background-color: #9650c8;">Read More</button>
+          </div>
+        </div>
+      </div> 
+    </div> 
+  </div>
+</section>
+
+<!-------------------------------------------section 7--------------------------------------->
+
+<div class="fixed-img fixed-image2"></div>
+<hr class="my-4">
+<div class="mx-auto my-3 p-3  text-light text-center text-shadow rounded-3 shadow-lg ">
+  <h3>Our Team</h3>
+  </div>
+<section class="wrapper">
+  <div class="container" style="width: 100%; min-height: 500px;">
+    
+    <div class="row">
+      <div class="col-sm-12 col-md-6 col-lg-4 mb-4">
+        <div class="card card-hover text-white card-has-bg click-col thankcard" style="background-image:url('img/team1.jpg');">
+          <img class="card-img d-none" src="https://source.unsplash.com/600x900/?tech,street" alt="our team">
+          <div class="card-img-overlay d-flex flex-column">
+            <div class="card-body">
+              <h4 class="card-titl mt-0 "><a class="text-white" herf="#" style="text-decoration: none; ">The director of our team</a></h4>
+              <small><i class="far fa-clock"></i>July 01, 2023</small>
+            </div>
+            <div class="card-footer">
+              <div class="media">
+                <img class="mr-3 rounded-circle" src="img/team1.jpg" alt="Generic placeholder image" style="width:100px">
+                <div class="media-body">
+                  <h6 class="my-0 text-white d-block">ُEng.Asmaa Ahmed</h6>
+                  <small>Director of FrontEnd</small>
+                </div>
+              </div>
+            </div> 
+           </div> 
+          </div> 
+        </div> 
+      
+      <div class="col-sm-12 col-md-6 col-lg-4 mb-4">
+        <div class="card card-hover text-white card-has-bg click-col thankcard" style="background-image:url('img/team2.jpg');">
+          <img class="card-img d-none" src="https://source.unsplash.com/600x900/?tree,nature" alt="our team">
+          <div class="card-img-overlay d-flex flex-column">
+            <div class="card-body">
+
+              <h4 class="card-titl mt-0 "><a class="text-white" herf="#" style=" text-decoration: none;">The director of our team</a></h4>
+              <small><i class="far fa-clock"></i> July 01, 2023</small>
+            </div>
+            <div class="card-footer">
+              <div class="media">
+                <img class="mr-3 rounded-circle" src="img/team2.jpg" alt="Generic placeholder image" style="width:100px">
+                <div class="media-body">
+                  <h6 class="my-0 text-white d-block">ُEng.Asmaa Ahmed</h6>
+                  <small>Director of FrontEnd</small>
+                </div>
+              </div>
+            </div> 
+          </div>
+        </div> 
+      </div> 
+      <div class="col-sm-12 col-md-6 col-lg-4 mb-4 card3">
+        <div class="card card-hover text-white card-has-bg click-col thankcard" style="background-image:url('img/team3.jpg');">
+          <img class="card-img d-none" src="https://source.unsplash.com/600x900/?tree,nature" alt="our team">
+          <div class="card-img-overlay d-flex flex-column">
+            <div class="card-body">
+
+              <h4 class="card-titl mt-0 "><a class="text-white" herf="#" style="text-decoration: none; ">The director of our team</a></h4>
+              <small><i class="far fa-clock"></i> July 01, 2023</small>
+            </div>
+            <div class="card-footer">
+              <div class="media">
+                <img class="mr-3 rounded-circle" src="img/team3.jpg" alt="Generic placeholder image" style="width:100px">
+                <div class="media-body">
+                  <h6 class="my-0 text-white d-block">ُEng.Asmaa Ahmed</h6>
+                  <small>Director of FrontEnd</small>
+                </div>
+              </div>
+            </div>
+          </div> 
+        </div>
+      </div> 
+    </div>
+  </div>
+
+</section>
+<hr class="my-4">
+<!-------------------------------------------section 8 -------------------------------------->
+<section class="section8">
+
+
+  <section class="container light"> 
+    <div class="container py-2">
+      <div class="h1 text-center p-4 title" id="pageHeaderTitle" style="font-size: 30px;">The history of Yemen</div>
+      <article class="postcard d-flex light blue">
+        <a class="postcard__img_link" href="#">
+          <img class="postcard__img" src="img/The-Heritage-City-Of-Zabid.jpg" alt="Image Title">
+        </a>
+        <div class="postcard__text t-dark">
+          <h1 class="postcard__title blue"><a href="#">City-Of-Zabid</a></h1>
+          <div class="postcard__subtitle small">
+            <time datetime="2020-05-25 12:00:00">
+              <i class="fas fa-calendar-alt mr-2"></i>Mon, May 25th 2023
+            </time>
+          </div>
+          <div class="postcard__bar" style="background-color: #7a17bf;"></div>
+          <div class="postcard__preview-txt">
+            Yemen boasts a rich and diverse history that spans several millennia,
+             making it a captivating tapestry of ancient civilizations and cultural 
+             influences. The earliest known history of the region dates back to the Sabaean Kingdom,
+              an ancient South Arabian civilization that flourished around the 8th century BCE.
+               Renowned for its impressive irrigation systems and the legendary Queen of Sheba,
+                the Sabaean Kingdom played a pivotal role in the trade routes of the ancient world.</div>
+          <ul class="postcard__tagbox">
+            <li class="tag__item"><i class="fas fa-tag mr-2"></i>Podcast</li>
+            <li class="tag__item"><i class="fas fa-clock mr-2"></i>55 mins.</li>
+            <li class="tag__item play blue">
+              <a href="#"><i class="fas fa-play mr-2"></i>Play Episode</a>
+            </li>
+          </ul>
+        </div>
+      </article>
+
+      <article class="postcard d-flex light red">
+        <a class="postcard__img_link" href="#">
+          <img class="postcard__img" src="img/The-Ruins-Of-Marib.jpg" alt="Image Title">
+        </a>
+        <div class="postcard__text t-dark">
+          <h1 class="postcard__title red"><a href="#">The-Ruins-Of-Marib</a></h1>
+          <div class="postcard__subtitle small">
+            <time datetime="2020-05-25 12:00:00">
+              <i class="fas fa-calendar-alt mr-2"></i>Mon, May 25th 2023
+            </time>
+          </div>
+          <div class="postcard__bar" style="background-color: #7a17bf;"></div>
+          <div class="postcard__preview-txt">Yemen became a crossroads of various civilizations,
+             including the Himyarite Kingdom, which succeeded the Sabaeans.
+              The advent of Islam in the 7th century brought a new chapter to Yemen's history,
+               as the region became an important center for Islamic scholarship and trade.
+                Over the centuries, Yemen witnessed the rise and fall of numerous dynasties,
+                 including the Ayyubids, Rasulids, and Ottomans, each leaving an indelible mark on the country's
+                  cultural and architectural landscape.</div>
+          <ul class="postcard__tagbox">
+            <li class="tag__item"><i class="fas fa-tag mr-2"></i>Podcast</li>
+            <li class="tag__item"><i class="fas fa-clock mr-2"></i>55 mins.</li>
+            <li class="tag__item play red">
+              <a href="#"><i class="fas fa-play mr-2"></i>Play Episode</a>
+            </li>
+          </ul>
+        </div>
+      </article> 
+    </div> 
+  </section>
+</section>
+
+<!---------------------------------------section 9 ----------------------------------------->
+<section class="section9">
+
+<h2 class="text-center text-light title" style="font-size: 30px;">Join Us</h2>
+<div class="container-fluid">
+  <div class="row justify-content-center">
+    <div class="card m-3 bg-light " style="width: 200px; box-shadow: -5px -5px 20px 10px rgb(201, 198, 241);">
+      <div class="card-body d-flex flex-column text-center">
+        <h3 class="card-title mb-4">Follow Facebook
+        </h3>
+        <input class="logoicon mb-2 rounded-4" style="align-self: center;" src="img/icons-01.png" type="image" alt="icon">
+    
+      </div>
+    </div>
+    <div class="card m-3 bg-light " style="width: 200px; box-shadow: -5px -5px 20px 10px rgb(201, 198, 241);">
+      <div class="card-body  d-flex flex-column text-center">
+        <h3 class="card-title mb-4">Follow Instgram
+        </h3>
+        <input class="logoicon mb-2 rounded-4" style="align-self: center;" src="img/icons-03.png" type="image" alt="icon">
+        
+      </div>
+    </div>
+    <div class="card m-3 bg-light " style="width: 200px;  box-shadow: -5px -5px 20px 10px rgb(201, 198, 241)">
+      <div class="card-body d-flex flex-column text-center">
+        <h3 class="card-title mb-4">Follow WhatsApp
+        </h3>
+        <input class="logoicon mb-2 rounded-4" style="align-self: center;" src="img/icons-02.png" type="image" alt="icon">
+        
+      </div>
+    </div>
+    <div class="card m-3 bg-light " style="width: 200px; box-shadow: -5px -5px 20px 10px rgb(201, 198, 241)">
+      <div class="card-body d-flex flex-column text-center">
+        <h3 class="card-title mb-4">Follow YouTube
+        </h3>
+        <input class="logoicon mb-2 rounded-4" style="align-self: center;" src="img/icons-04.png" type="image" alt="icon">
+        
+      </div>
+    </div>
+  </div>
+</div>
+</section>
+
+
+<!---------------------------------------section 10 ----------------------------------------->
+
+<section class="section10">
+
+  <footer class=" text-light pb-5" style="background-color: #a47bc1;">
+    <div class="container-fluid">
+      <div class="row text-center">
+        <div class="col-md-4">
+          <hr class=" border-top border-3 border-light my-3">
+          <h5><img src="img/travel logo.png" alt="good pic" height="65px" width="140px" class="logoicon rounded-circle">&nbsp; Good Trips</h5>
+          <hr class="border-top border-3 border-light my-3">
+          <address>
+            <p>Tel : 000-000-000</p>
+            <p>Address : YEMEN</p>
+            <p>Fax : 000-000-000</p>
+          </address>
+        </div>
+        <div class="col-md-4">
+          <hr class="border-top border-3 border-light my-3">
+          <h5><img src="img/travel logo.png" alt="good pic" height="65px" width="140px" class="logoicon rounded-circle ">&nbsp; Important links</h5>
+          <hr class="border-top border-3 border-light my-3">
+          <p><a  class="linkss" style="color: white; text-decoration: none;" href="#">Visit Us</a></p>
+          <p><a  class="linkss" style="color: white; text-decoration: none;" href="#">Take alook</a></p>
+          <p><a  class="linkss" style="color: white; text-decoration: none;"href="#">Your health is more important</a></p>
+        </div>
+        <div class="col-md-4">
+          <hr class="border-top border-3 border-light my-3">
+          <h5><img src="img/travel logo.png" alt="good pic" height="65px" width="140px" class="logoicon rounded-circle">&nbsp; Vision</h5>
+          <hr class="border-top border-3 border-light my-3">
+          <p>Serveices for all </p>
+          <p>Provide best serveices</p>
+          <p>you will be better than before</p>
+        </div>
+      </div>
+    </div>
+    <hr class="border-top border-3 border-light my-3">
+    <span class="text-center d-block text-light">Copyright © 2023 TravelGo CO, All rights</span>
+    <hr class="border-top border-3 border-light my-3">
+
+    <!-- side icons-->
+    <aside>
+      <div class="container-fluid p-0 " style="position: relative;">
+
+        <div class="d-flex flex-column justify-content-between ms-auto" style="position: fixed;z-index: 90;top: 200px;right:20px;">
+          <div class="aside-icon "><a href="#"><i class="fab fa-facebook-square"></i></a></div>
+          <div class="aside-icon "><a href="#"><i class="fab fa-whatsapp-square"></i></a></div>
+          <div class="aside-icon "><a href="#"><i class="fab fa-twitter-square"></i></a></div>
+          <div class="aside-icon "><a href="#"><i class="fab fa-linkedin"></i></a></div>
+          <div class="aside-icon "><a href="#"><i class="fab fa-instagram-square"></i></a></div>
+        </div>
+    </div>
+  </aside>
+   
+  <!-- JavaScript Code -->
+
+  <script src="script.js"></script>
+  <script>
+      var tooltipTriggerList = [].slice.call(document.querySelectorAll('[data-bs-toggle="tooltip"]'))
+      var tooltipList = tooltipTriggerList.map(function (tooltipTriggerEl) {
+        return new bootstrap.Tooltip(tooltipTriggerEl)
+      })
+      </script>
+      <script type-text="javascript">
+        function copyToClipboard(id) {
+                var from = document.getElementById(id);
+                var range = document.createRange();
+                window.getSelection().removeAllRanges();
+                range.selectNode(from);
+                window.getSelection().addRange(range);
+                document.execCommand('copy');
+                window.getSelection().removeAllRanges();
+                window.alert("تم نسخ النص.");
+         }
+        </script>
+        
+        <grammarly-desktop-integration data-grammarly-shadow-root="true"></grammarly-desktop-integration>
+
+
+</footer>
+</section>
+
+
+
+<script src="js/bootstrap.min.js"></script>
+</body>
+</html>
